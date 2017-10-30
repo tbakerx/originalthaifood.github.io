@@ -1,6 +1,6 @@
 # Original Thai Food
 
-![Original Thai Food](original-thai-food.png?raw=true "Original Thai Food")
+<div style="text-align:center">![Original Thai Food](original-thai-food.png?raw=true "Original Thai Food")</div>
 
 Website for Original Thai Food restaurant for a friend in Ao Nang Beach, Krabi, Thailand
 

@@ -73,7 +73,8 @@ html[xmlns] .flexslider .slides {
  * DEFAULT THEME
  * ====================================================================================================================*/
 .flexslider {
-  margin: 0; 
+  background-color: rgba(0,0,0,.25);
+  margin: 0;
   position: relative;
   zoom: 1;
   -webkit-border-radius: 4px;
@@ -104,7 +105,7 @@ html[xmlns] .flexslider .slides {
 }
 .carousel li {
   margin-right: 5px;
-} 
+}
 .flex-direction-nav a {
     text-decoration: none;
     display: block;
@@ -124,13 +125,13 @@ html[xmlns] .flexslider .slides {
     border: 1px solid #fff;
     font-size: 0;
 	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%; 
+	-moz-border-radius: 50%;
     border-radius: 50%;
 }
 .flex-direction-nav a:before {
     font-size: 47px;
     display: block;
-    content: "\f104"; 
+    content: "\f104";
     font-family: FontAwesome;
     line-height: 47px;
 }
@@ -145,7 +146,7 @@ html[xmlns] .flexslider .slides {
 .flex-direction-nav a.flex-next:before {
     font-size: 47px;
     display: block;
-    content: "\f105"; 
+    content: "\f105";
     font-family: FontAwesome;
     line-height: 47px;
 }
@@ -164,7 +165,7 @@ html[xmlns] .flexslider .slides {
 .flex-control-paging li a {
   width: 35px;
   height: 8px;
-  display: block; 
+  display: block;
   background: rgba(255, 255, 255, 0.55);
   cursor: pointer;
   text-indent: -9999px;
@@ -177,52 +178,52 @@ html[xmlns] .flexslider .slides {
   border-radius: 20px;
 }
 .flex-control-paging li a:hover {
-  background: #fff; 
+  background: #fff;
 }
 .flex-control-paging li a.flex-active {
   background: #fff;
   cursor: default;
 }
- 
+
 /* ====================================================================================================================
  * RESPONSIVE
  * ====================================================================================================================*/
- 
-@media screen and (max-width: 1280px) { 
-	.flex-direction-nav a { 
-		top: 33%; 
+
+@media screen and (max-width: 1280px) {
+	.flex-direction-nav a {
+		top: 33%;
 	}
 }
 @media screen and (max-width: 991px) {
-	.flex-direction-nav a { 
-		left: 3%; 
+	.flex-direction-nav a {
+		left: 3%;
 	}
 	.flex-direction-nav .flex-next {
-		right: 3%; 
+		right: 3%;
 	}
-	.flex-control-nav { 
-		bottom: -59%; 
+	.flex-control-nav {
+		bottom: -59%;
 	}
 }
 @media screen and (max-width: 768px) {
 .flex-control-nav {
     bottom: -43%;
-} 
-} 
+}
+}
 @media screen and (max-width: 480px) {
 .flex-control-paging li a {
     width: 29px;
     height: 5px;
-} 
+}
 }
 @media screen and (max-width: 414px) {
 .flex-direction-nav a:before ,.flex-direction-nav a.flex-next:before{
-    font-size: 28px; 
+    font-size: 28px;
 	line-height: 38px;
 }
-.flex-direction-nav a { 
+.flex-direction-nav a {
     width: 40px;
-    height: 40px; 
+    height: 40px;
 }
 .flex-control-nav {
     bottom: -32%;

@@ -136,8 +136,8 @@ ul.nav.navbar-nav.navbar-right {
 	text-decoration:none;
 }
 .banner-text a.more:hover {
-    border-color: #639;
-    background: #639;
+    border-color: #FFF;
+    background: #b72f2c;
 }
 /*-- //banner --*/
 /*-- welcome --*/
@@ -304,7 +304,7 @@ img.zoom-img:hover{
     margin: 0 auto;
 }
 .slid:hover h5 {
-    background: #639;
+    background: #b72f2c;
 	-webkit-transform: rotatez(360deg);
 	-moz-transform: rotatez(360deg);
 	-o-transform: rotatez(360deg);
@@ -2060,3 +2060,11 @@ p {
 /*-- //responsive-design --*/
 
 /*    My Additions    */
+.specials-list{
+		color:white;
+		list-style:none;
+		background:rgba(0,0,0,0.5);
+		padding-top:1rem;
+		width:60%;
+		margin:auto;
+}

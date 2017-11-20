@@ -333,7 +333,7 @@ img.zoom-img:hover{
     right: 0;
     width: 57%;
     top: 0;
-    background-color: rgba(102, 51, 153, 0.86);
+    background-color: rgba(183, 47, 44, 0.86);
     height: 100%;
 }
 .menu-right h4 {
@@ -531,7 +531,7 @@ img.zoom-img:hover{
     border-radius: 25px 0 0 0;
 }
 .w3ls-effect .view-caption h4 {
-    color: #5f1ca2;
+    color: #b72f2c;
     font-size: 1.3em;
 }
 .w3ls-effect .view-caption p{
@@ -796,7 +796,7 @@ img.zoom-img:hover{
 }
 .address ul li i.fa {
     font-size: 2em;
-    color: #639;
+    color: #b72f2c;
     margin-right: 0.3em;
     vertical-align: middle;
 }
@@ -917,10 +917,10 @@ img.zoom-img:hover{
     margin-top: .5em;
 }
 .footer p a{
-    color: #fff;
+    color: #b72f2c;
 }
 .footer p a:hover{
-    color: #988AEE;
+    color: #fff;
 }
 /*-- //footer --*/
 /*-- modal --*/
